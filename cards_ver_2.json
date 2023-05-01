@@ -1,0 +1,3369 @@
+[
+  {
+    "animationType": "DEATH",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 2,
+    "description": "Martial Art Artist",
+    "gold": 100,
+    "id": "f2cf4040-f83a-406e-b4eb-b12145b4fc9a",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Ff2cf4040-f83a-406e-b4eb-b12145b4fc9a.png?alt=media&token=81413028-6348-4a8d-bf81-3177aa7a390b",
+    "internalId": "",
+    "job": "KNIGHT",
+    "name": "Kengi",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "child": {
+          "actionType": "BUFF",
+          "animationType": "NONE",
+          "atk": 0,
+          "changeRaceTo": "NONE",
+          "cost": 0,
+          "def": -1,
+          "description": "-1 Def",
+          "gold": 0,
+          "hasAttachment": false,
+          "job": "",
+          "loop": 1,
+          "name": "Bleed",
+          "range": 1,
+          "silence": false,
+          "sources": {
+            "target": "SELF"
+          },
+          "targets": {
+            "target": "SELF"
+          },
+          "triggerType": "ENDOFTURN",
+          "wasExecuted": false
+        },
+        "cost": 0,
+        "def": 0,
+        "description": "",
+        "gold": 0,
+        "hasAttachment": true,
+        "job": "",
+        "loop": 1,
+        "name": "Poison Bleed",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "BOARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "TARGET",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 2,
+    "description": "Grave robber",
+    "gold": 100,
+    "id": "145120d9-a492-4b8a-8ee8-d98a6e61cf00",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F145120d9-a492-4b8a-8ee8-d98a6e61cf00.png?alt=media&token=7feb3fcc-1bf2-40cf-8115-7dddc9bec566",
+    "internalId": "",
+    "job": "LANCER",
+    "name": "Venom",
+    "race": "BEAST",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "RESURRECT",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "UNDEAD",
+        "cost": 0,
+        "def": 0,
+        "description": "Resurrect a fallen as an unknown soldier",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "From the bones",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "BOARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 2,
+    "def": 0,
+    "description": "Power of dark resurrection",
+    "gold": 100,
+    "id": "da3354bc-0b38-4979-85f1-29d9c1e59499",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fda3354bc-0b38-4979-85f1-29d9c1e59499.png?alt=media&token=517ee1e9-0900-4391-a2ed-0fe7e59f6d2f",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Moana",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "DEATH",
+    "atk": 4,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 2,
+    "description": "Good lancer with long reach.",
+    "gold": 180,
+    "id": "ac504fc0-ab94-4e20-b946-a44a75be88ae",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fac504fc0-ab94-4e20-b946-a44a75be88ae.png?alt=media&token=37e5a213-502a-43fe-b76b-f8f636cb0926",
+    "internalId": "",
+    "job": "LANCER",
+    "name": "Dana",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Silence a enemy unit",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Silent kill",
+        "range": 1,
+        "silence": true,
+        "sources": {
+          "target": "BOARDOP"
+        },
+        "targets": {
+          "target": "BOARDOP"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 2,
+    "description": "He can silence his preys",
+    "gold": 100,
+    "id": "5a602d38-4f6e-44ad-adf6-987d4d47d221",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F5a602d38-4f6e-44ad-adf6-987d4d47d221.png?alt=media&token=27b9f0f4-1215-404d-acbc-e9e47d04bf04",
+    "internalId": "",
+    "job": "GRAND_ARCHER",
+    "name": "Jinx",
+    "race": "ELF",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 2,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Give a mage in hand +2 attack.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Paladin Lehrling",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "JOB": "MAGE"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ENDOFTURN",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 3,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 2,
+    "description": "Another novice lancer",
+    "gold": 100,
+    "id": "7f081008-86b0-4c91-97da-2bedcae8cf32",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F7f081008-86b0-4c91-97da-2bedcae8cf32.png?alt=media&token=8b6c2d12-f515-4005-b276-5f4cabce528a",
+    "internalId": "",
+    "job": "LANCER",
+    "name": "Titan",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 1,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 1,
+        "description": "Gain +1 attack and +1 defence.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Reinforcement",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "SELF"
+        },
+        "targets": {
+          "target": "SELF"
+        },
+        "triggerType": "STARTOFTURN",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 3,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 2,
+    "description": "He just keeps getting better",
+    "gold": 100,
+    "id": "76899df7-7e2b-46ed-9748-b30fe58ac47a",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F76899df7-7e2b-46ed-9748-b30fe58ac47a.png?alt=media&token=ea9d9f32-4b00-4fc3-a9a5-afdfe24c4f5a",
+    "internalId": "",
+    "job": "NONE",
+    "name": "ZrNo",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 1,
+        "changeRaceTo": "NONE",
+        "cost": -1,
+        "def": 1,
+        "description": "Give beast in your hand +1attack , +1 defence and cost 1 less.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Friendly feast",
+        "range": 10,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "RACE": "BEAST"
+          },
+          "target": "ALL_IN_PLAY"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "DEATHRATTLE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 2,
+    "def": 1,
+    "description": "Friendly character with really tasty meat.",
+    "gold": 120,
+    "id": "a5ca44bc-af64-4400-b3fa-413fc7bf4b48",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fa5ca44bc-af64-4400-b3fa-413fc7bf4b48.png?alt=media&token=97c65f53-97b8-48a7-aaec-77a617b1d79c",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Hollie",
+    "race": "BEAST",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "DISCOVER",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Choose a copy of a card from your opponent's deck",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Deck tracker",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "OPDECK"
+        },
+        "targets": {
+          "target": "DECK"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 2,
+    "def": 1,
+    "description": "She has far sight and see in the future.",
+    "gold": 100,
+    "id": "915335d4-ca29-40d8-b74a-089f11e02793",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F915335d4-ca29-40d8-b74a-089f11e02793.png?alt=media&token=05375cdc-02ef-493f-af51-113ebcf34a39",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Funestra",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "DRAW",
+        "animationType": "NONE",
+        "atk": 1,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 1,
+        "description": "Reborn and gain +1 +1",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "A Hero cannot die",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "SELF"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "DEATHRATTLE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 2,
+    "def": 2,
+    "description": "Casual hero",
+    "gold": 100,
+    "id": "2a7de2cb-6641-4ab9-9dcc-9b2dc235f944",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F2a7de2cb-6641-4ab9-9dcc-9b2dc235f944.png?alt=media&token=94b88914-c176-4986-9855-192f481fee58",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Ryu",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "KILL",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Kill everyone around you.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "First act",
+        "range": 6,
+        "silence": false,
+        "sources": {
+          "details": {
+            "BOARD_RANGE": "AROUND"
+          },
+          "target": "BOARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "ENDOFTURN",
+        "wasExecuted": false
+      },
+      {
+        "actionType": "DISINTEGRATE",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Gather the souls around you",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Second act",
+        "range": 6,
+        "silence": false,
+        "sources": {
+          "target": "BOARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "STARTOFTURN",
+        "wasExecuted": false
+      },
+      {
+        "actionType": "RESURRECT",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Release the souls around you",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Third act",
+        "range": 6,
+        "silence": false,
+        "sources": {
+          "target": "BOARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "DEATHRATTLE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 4,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 6,
+    "def": 5,
+    "description": "Death no more",
+    "gold": 100,
+    "id": "e53c38da-e7f3-4741-8bd0-7b27d4064a67",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fe53c38da-e7f3-4741-8bd0-7b27d4064a67.png?alt=media&token=d8c3e0c0-9e2a-43b8-b06a-8e3321128307",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Akuma",
+    "race": "UNDEAD",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "RESURRECT",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Revive a fallen ",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Resurrection",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "BOARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 1,
+    "description": "Dive being almost",
+    "gold": 200,
+    "id": "c6d7e7ac-128e-4b24-9f24-9be520fe5390",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fc6d7e7ac-128e-4b24-9f24-9be520fe5390.png?alt=media&token=e36954fe-053e-40b0-99fe-2147a63cd1f9",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Theresa",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Choose a unit in opponent's hand and silenced it.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "NONE",
+        "loop": 1,
+        "name": "Secret Deals",
+        "range": 1,
+        "silence": true,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION"
+          },
+          "target": "OPHAND"
+        },
+        "targets": {
+          "target": "OPHAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 1,
+    "description": "A Master in negotiation",
+    "gold": 150,
+    "id": "8e9e9e1f-ee35-4e0d-8984-a1895aed09dc",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F8e9e9e1f-ee35-4e0d-8984-a1895aed09dc.png?alt=media&token=8342e6cb-dce4-40c2-9489-77578c3534c6",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Nathalie",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "KILL",
+        "animationType": "SWITCH",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Kill an undead at the start of turn.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Undead Clensing",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "RACE": "UNDEAD"
+          },
+          "target": "BOARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "STARTOFTURN",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 4,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 6,
+    "def": 3,
+    "description": "Spirit hunter. ",
+    "gold": 300,
+    "id": "3f17a72a-3166-472d-afbb-916947428202",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F3f17a72a-3166-472d-afbb-916947428202.png?alt=media&token=2b1a4d0d-1f76-41e0-b2d7-a0f8e19fdbc4",
+    "internalId": "",
+    "job": "WARRIOR",
+    "name": "Shin",
+    "race": "DEMON",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 2,
+        "description": "Gain +2 defence",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Endurance",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "SELF"
+        },
+        "targets": {
+          "target": "SELF"
+        },
+        "triggerType": "ENDOFTURN",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 4,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 1,
+    "description": "Stronger even now",
+    "gold": 100,
+    "id": "ec67d369-ffcd-4508-a896-48d87545392d",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fec67d369-ffcd-4508-a896-48d87545392d.png?alt=media&token=59abad6f-bded-4d81-8cf9-c383ee3ae74c",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Magnus",
+    "race": "BEAST",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 1,
+        "description": "Increase defence of 2 unit in deck.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Def UP",
+        "range": 2,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION"
+          },
+          "target": "DECK"
+        },
+        "targets": {
+          "target": "DECK"
+        },
+        "triggerType": "ENDOFTURN",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 5,
+    "def": 6,
+    "description": "Casual tank dragon",
+    "gold": 0,
+    "id": "78a3e01f-948b-4e17-a785-45e282f3fe23",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F78a3e01f-948b-4e17-a785-45e282f3fe23.png?alt=media&token=dfb52e3b-be6e-4e36-b177-59443245ea8f",
+    "internalId": "",
+    "job": "LANCER",
+    "name": "Gastor",
+    "race": "BEAST",
+    "rarity": "RARE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": -5,
+        "description": "Targets have -5 Def",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Itimidation",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "SELF"
+        },
+        "targets": {
+          "target": "SELF"
+        },
+        "triggerType": "TARGET",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "EXPLOSION",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 5,
+    "def": 3,
+    "description": "You got no defence",
+    "gold": 300,
+    "id": "2711a7ff-bd80-4f66-938a-3ea08bd71802",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F2711a7ff-bd80-4f66-938a-3ea08bd71802.png?alt=media&token=b326ff8c-08fa-405b-b098-e010d082d3fa",
+    "internalId": "",
+    "job": "LANCER",
+    "name": "Barof",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "KILL",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Kill 3 units on board.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Restless Spitit",
+        "range": 3,
+        "silence": false,
+        "sources": {
+          "target": "BOARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "DEATHRATTLE",
+        "wasExecuted": false
+      },
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "child": {
+          "actionType": "KILL",
+          "animationType": "NONE",
+          "atk": 0,
+          "changeRaceTo": "NONE",
+          "cost": 0,
+          "def": 0,
+          "description": "Commit suicide.",
+          "gold": 0,
+          "hasAttachment": false,
+          "job": "",
+          "loop": 1,
+          "name": "Time has come",
+          "range": 1,
+          "silence": false,
+          "sources": {
+            "target": "SELF"
+          },
+          "targets": {
+            "target": "SELF"
+          },
+          "triggerType": "STARTOFTURN",
+          "wasExecuted": false
+        },
+        "cost": 0,
+        "def": 0,
+        "description": "Give unit around her. Start of turn commit suicide.",
+        "gold": 0,
+        "hasAttachment": true,
+        "job": "",
+        "loop": 1,
+        "name": "Cast away",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "BOARD_RANGE": "AROUND"
+          },
+          "target": "BOARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "EXPLOSION",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 1,
+    "description": "Only death lies her way.",
+    "gold": 100,
+    "id": "7e19c083-d9c9-4d7f-bb88-bead1e5c6afa",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F7e19c083-d9c9-4d7f-bb88-bead1e5c6afa.png?alt=media&token=f92bf306-ce30-41ab-84e9-478879630ff9",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Totema",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "DRAW",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Draw a beast from deck.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Beast Friendly",
+        "range": 2,
+        "silence": false,
+        "sources": {
+          "details": {
+            "RACE": "BEAST"
+          },
+          "target": "DECK"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 3,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 2,
+    "description": "Dragonic mage",
+    "gold": 100,
+    "id": "ef0e89f8-5ee1-4a27-8922-d1197600a34a",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fef0e89f8-5ee1-4a27-8922-d1197600a34a.png?alt=media&token=faf226b5-53ee-4a77-ab0c-75721d5de312",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Fiorde",
+    "race": "BEAST",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "EXPLOSION",
+    "atk": 4,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 5,
+    "def": 4,
+    "description": "His flaming sword is a big problem.",
+    "gold": 100,
+    "id": "ea272bc1-9473-48b2-a9fb-1a76be8f5020",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fea272bc1-9473-48b2-a9fb-1a76be8f5020.png?alt=media&token=57ec9a09-2bb3-4674-b1d6-59e90b819c88",
+    "internalId": "",
+    "job": "WARRIOR",
+    "name": "Dino",
+    "race": "BEAST",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "KILL",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Kill a random opponent's beast on board",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Hunter Instict",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "RACE": "BEAST"
+          },
+          "target": "BOARDOP"
+        },
+        "targets": {
+          "target": "BOARDOP"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 2,
+    "description": "Ordinary Elfen archer",
+    "gold": 100,
+    "id": "4348caa8-ecf5-46b3-afc0-21df4d422a4b",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F4348caa8-ecf5-46b3-afc0-21df4d422a4b.png?alt=media&token=b4186f30-aaad-4157-a1d7-65a02d4aace8",
+    "internalId": "",
+    "job": "GRAND_ARCHER",
+    "name": "Argos",
+    "race": "ELF",
+    "rarity": "COMMON"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "SWITCH",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": -1,
+        "def": 0,
+        "description": "reduce cost of 6 cards in hand by 1.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Savings",
+        "range": 5,
+        "silence": false,
+        "sources": {
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "DEATHRATTLE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 5,
+    "def": 2,
+    "description": "Discount for the future",
+    "gold": 200,
+    "id": "f38bbc70-5c9d-450f-b968-0fb55de1c4d0",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Ff38bbc70-5c9d-450f-b968-0fb55de1c4d0.png?alt=media&token=889c4f39-4bc6-4706-a134-3c68c0c63324",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Ethna",
+    "race": "ELF",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "child": {
+          "actionType": "BUFF",
+          "animationType": "NONE",
+          "atk": 0,
+          "changeRaceTo": "NONE",
+          "cost": 0,
+          "def": -1,
+          "description": "give def reduction",
+          "gold": 0,
+          "hasAttachment": false,
+          "job": "",
+          "loop": 1,
+          "name": "Def down",
+          "range": 1,
+          "silence": false,
+          "sources": {
+            "target": "SELF"
+          },
+          "targets": {
+            "target": "SELF"
+          },
+          "triggerType": "ENDOFTURN",
+          "wasExecuted": false
+        },
+        "cost": 0,
+        "def": 0,
+        "description": "give def reduction",
+        "gold": 0,
+        "hasAttachment": true,
+        "job": "",
+        "loop": 1,
+        "name": "Def down",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "SELF"
+        },
+        "targets": {
+          "target": "SELF"
+        },
+        "triggerType": "TARGET",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 2,
+    "def": 2,
+    "description": "Another fallen soldier",
+    "gold": 100,
+    "id": "e92c9020-5659-4ec1-a48a-ae598377c274",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fe92c9020-5659-4ec1-a48a-ae598377c274.png?alt=media&token=6e069d96-4634-4059-8763-c538ef608f08",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Unknown Soldier",
+    "race": "UNDEAD",
+    "rarity": "COMMON"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 1,
+        "def": 0,
+        "description": "Increase cost of 5 cards in opponent's hand by +1",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Payback",
+        "range": 5,
+        "silence": false,
+        "sources": {
+          "target": "OPHAND"
+        },
+        "targets": {
+          "target": "OPHAND"
+        },
+        "triggerType": "DEATHRATTLE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "EXPLOSION",
+    "atk": 4,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 2,
+    "description": "Powerful mage",
+    "gold": 200,
+    "id": "033093d1-420b-4304-ae7d-651d40474cea",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F033093d1-420b-4304-ae7d-651d40474cea.png?alt=media&token=1dcd6fbd-6558-4cdc-b4e7-1361249d0ffb",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Gina",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "RESURRECT",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Resurrection",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Beast Ritual",
+        "range": 2,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "RACE": "BEAST"
+          },
+          "target": "GRAVEYARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 3,
+    "description": "Resurrect 2 Beast from graveyard",
+    "gold": 160,
+    "id": "ff82ead0-4e2f-4566-847e-6028d2c88b34",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fff82ead0-4e2f-4566-847e-6028d2c88b34.png?alt=media&token=007d6633-9df4-4fdd-a04c-00e04c6908b1",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Zamoul",
+    "race": "BEAST",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": -1,
+        "def": 0,
+        "description": "Reduce cost of 2 Items/Spells in hand by -2",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Cheap Spell",
+        "range": 2,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "SPELL"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 3,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 5,
+    "def": 3,
+    "description": "Beast mage",
+    "gold": 160,
+    "id": "54ea768c-b015-4309-aed6-2fcc96f81ef1",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F54ea768c-b015-4309-aed6-2fcc96f81ef1.png?alt=media&token=c8a06a4f-0df9-47f9-9320-ada074b0a470",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Rara",
+    "race": "BEAST",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "3 human units in opponents hand have -1 Def",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Breach",
+        "range": 3,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "RACE": "HUMAN"
+          },
+          "target": "OPHAND"
+        },
+        "targets": {
+          "target": "OPHAND"
+        },
+        "triggerType": "DEATHRATTLE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 2,
+    "def": 1,
+    "description": "Low level beast",
+    "gold": 100,
+    "id": "017d7d78-4ff7-497f-acd0-676ec0a98e14",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F017d7d78-4ff7-497f-acd0-676ec0a98e14.png?alt=media&token=8067e865-febc-442e-b870-cc23bbcc4e41",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Barsh",
+    "race": "BEAST",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "DRAW",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Draw 2 random Items/Spells from deck",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Bag Pack",
+        "range": 2,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "SPELL"
+          },
+          "target": "DECK"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 2,
+    "description": "Beast mage",
+    "gold": 140,
+    "id": "7d0c20a9-6933-4e8b-8417-55b30e17ef37",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F7d0c20a9-6933-4e8b-8417-55b30e17ef37.png?alt=media&token=8855e787-e503-4411-ba1e-0310b6144560",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Mamoa",
+    "race": "BEAST",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "DRAW",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "steal an item/spell from opponent's hand.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Poch",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "SPELL"
+          },
+          "target": "OPHAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 3,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 5,
+    "def": 1,
+    "description": "A thief craftsman",
+    "gold": 150,
+    "id": "99c1575f-f279-4f8e-ac9d-5b12aa9ea4c4",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F99c1575f-f279-4f8e-ac9d-5b12aa9ea4c4.png?alt=media&token=8227ec61-35b6-4eba-bbe7-ac5ce8802336",
+    "internalId": "",
+    "job": "ARCHER",
+    "name": "Gnomme",
+    "race": "ORG",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "child": {
+          "actionType": "KILL",
+          "animationType": "NONE",
+          "atk": 0,
+          "changeRaceTo": "NONE",
+          "cost": 0,
+          "def": 0,
+          "description": "Killed 3 friendly units.",
+          "gold": 0,
+          "hasAttachment": false,
+          "job": "",
+          "loop": 1,
+          "name": "Cursed",
+          "range": 3,
+          "silence": false,
+          "sources": {
+            "target": "BOARDALLY"
+          },
+          "targets": {
+            "target": "BOARDALLY"
+          },
+          "triggerType": "ONCE",
+          "wasExecuted": false
+        },
+        "cost": 0,
+        "def": 0,
+        "description": "Choose a unit in opponent's hand, when its being played killed 3 friendly units.",
+        "gold": 0,
+        "hasAttachment": true,
+        "job": "",
+        "loop": 1,
+        "name": "Curse Eye",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION"
+          },
+          "target": "OPHAND"
+        },
+        "targets": {
+          "target": "OPHAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 3,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 6,
+    "def": 4,
+    "description": "He is not here to play",
+    "gold": 100,
+    "id": "f2ac9d4c-8d49-4498-a8a0-f83cff25ee80",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Ff2ac9d4c-8d49-4498-a8a0-f83cff25ee80.png?alt=media&token=7b7e015d-a534-4952-8dcb-48532cd6ffba",
+    "internalId": "",
+    "job": "LANCER",
+    "name": "Anub",
+    "race": "BEAST",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "child": {
+          "actionType": "KILL",
+          "animationType": "NONE",
+          "atk": 0,
+          "changeRaceTo": "NONE",
+          "cost": 0,
+          "def": 0,
+          "description": "...",
+          "gold": 0,
+          "hasAttachment": false,
+          "job": "",
+          "loop": 1,
+          "name": "Death",
+          "range": 1,
+          "silence": false,
+          "sources": {
+            "target": "SELF"
+          },
+          "targets": {
+            "target": "SELF"
+          },
+          "triggerType": "EXECUTE",
+          "wasExecuted": false
+        },
+        "cost": 0,
+        "def": 0,
+        "description": "Choose a unit on board and kill it",
+        "gold": 0,
+        "hasAttachment": true,
+        "job": "",
+        "loop": 1,
+        "name": "Mark of Death",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "BOARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "EXPLOSION",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 6,
+    "def": 2,
+    "description": "",
+    "gold": 100,
+    "id": "7cf16d69-7704-4274-afaf-a56b2d088984",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F7cf16d69-7704-4274-afaf-a56b2d088984.png?alt=media&token=321efe29-ede1-4743-81c1-eb952c70839a",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Magin",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "KILL",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Kill random unit on board",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Vengence",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "BOARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "DEATHRATTLE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 4,
+    "description": "",
+    "gold": 100,
+    "id": "9eed5dfc-ef5c-4364-b802-929b485e3348",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F9eed5dfc-ef5c-4364-b802-929b485e3348.png?alt=media&token=ffbe67db-42b9-4246-8205-dab6933c421f",
+    "internalId": "",
+    "job": "WARRIOR",
+    "name": "Nomi",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "child": {
+          "actionType": "RESURRECT",
+          "animationType": "NONE",
+          "atk": 0,
+          "changeRaceTo": "NONE",
+          "cost": 0,
+          "def": 0,
+          "description": "action",
+          "gold": 0,
+          "hasAttachment": false,
+          "job": "",
+          "loop": 1,
+          "name": "R3",
+          "range": 1,
+          "silence": false,
+          "sources": {
+            "target": "SELF"
+          },
+          "targets": {
+            "target": "SELF"
+          },
+          "triggerType": "EXECUTE",
+          "wasExecuted": false
+        },
+        "cost": 0,
+        "def": 0,
+        "description": "resurrect",
+        "gold": 0,
+        "hasAttachment": true,
+        "job": "",
+        "loop": 1,
+        "name": "R2",
+        "range": 1,
+        "silence": true,
+        "sources": {
+          "target": "SELF"
+        },
+        "targets": {
+          "target": "SELF"
+        },
+        "triggerType": "DEATHRATTLE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "LIGHTNING",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 2,
+    "description": "",
+    "gold": 100,
+    "id": "45f285ba-b264-4ce5-a207-3345b61f2448",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F45f285ba-b264-4ce5-a207-3345b61f2448.png?alt=media&token=3a8bf658-33ef-4bdb-a829-02c3d4aa7882",
+    "internalId": "",
+    "job": "LANCER",
+    "name": "Tess",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "SWITCH",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 2,
+    "description": "TODO double attack",
+    "gold": 100,
+    "id": "1a0ead25-bea5-4bb4-9b1b-bc5fd6f188bd",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F1a0ead25-bea5-4bb4-9b1b-bc5fd6f188bd.png?alt=media&token=6241a3c3-5831-4b1f-8cd6-763fd2c85bc9",
+    "internalId": "",
+    "job": "ARCHER",
+    "name": "Mika",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE_RESURRECT",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Selection",
+        "gold": 0,
+        "hasAttachment": true,
+        "job": "",
+        "loop": 1,
+        "name": "Aria",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "GRAVEYARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 2,
+    "description": "",
+    "gold": 100,
+    "id": "829b770b-5c28-4e75-bbc9-9125d5b28017",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F829b770b-5c28-4e75-bbc9-9125d5b28017.png?alt=media&token=9e76a285-29bf-4c9f-8f1d-5a4392fc57b6",
+    "internalId": "",
+    "job": "KNIGHT",
+    "name": "Stella",
+    "race": "ELF",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Silenced",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Shss!",
+        "range": 1,
+        "silence": true,
+        "sources": {
+          "target": "BOARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "TARGET",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 2,
+    "description": "Silenced targeted units",
+    "gold": 100,
+    "id": "f9dbc729-6c64-4806-9f23-ff4e1a181ac7",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Ff9dbc729-6c64-4806-9f23-ff4e1a181ac7.png?alt=media&token=bb0b5bf5-00de-4dbc-93e1-541c4ecd9a16",
+    "internalId": "",
+    "job": "KNIGHT",
+    "name": "Yuna",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "EXPLOSION",
+    "atk": 4,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 3,
+    "description": "",
+    "gold": 100,
+    "id": "4e56cb43-fc66-4bc2-994f-35ee1a6eafc9",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F4e56cb43-fc66-4bc2-994f-35ee1a6eafc9.png?alt=media&token=0620339f-f151-40b9-901d-29eb9d759c39",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Tg-Hammer",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "SWITCH",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 2,
+    "def": 2,
+    "description": "",
+    "gold": 100,
+    "id": "2c1f93cc-b390-4c2a-b1b5-21eef07d31d0",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F2c1f93cc-b390-4c2a-b1b5-21eef07d31d0.png?alt=media&token=0c9cf7fe-d751-4280-84cb-1cad790792a7",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Maki Dono",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "DEATH",
+    "atk": 3,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 2,
+    "description": "",
+    "gold": 100,
+    "id": "e35fda88-35fe-4a18-b755-b1f6a4ecdb43",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fe35fda88-35fe-4a18-b755-b1f6a4ecdb43.png?alt=media&token=a941b6ce-e514-4ae5-87a8-6bfbaeedaae9",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Joker",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "DEATH",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 2,
+    "description": "",
+    "gold": 100,
+    "id": "e78a0190-6e11-49dc-bb10-1e231fd58800",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fe78a0190-6e11-49dc-bb10-1e231fd58800.png?alt=media&token=664ee23f-17aa-4f8d-9d3c-8398d57f604c",
+    "internalId": "",
+    "job": "WARRIOR",
+    "name": "Kain",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "DEATH",
+    "atk": 3,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 3,
+    "description": "",
+    "gold": 100,
+    "id": "818d1258-343b-4caa-bee7-5fee5d9fed29",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F818d1258-343b-4caa-bee7-5fee5d9fed29.png?alt=media&token=acd91e4f-3a95-46a6-94ac-4c7db472d3ff",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Rosso",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "DEATH",
+    "atk": 3,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 5,
+    "def": 3,
+    "description": "",
+    "gold": 100,
+    "id": "cee05c12-eeee-4682-961a-d625db79d278",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fcee05c12-eeee-4682-961a-d625db79d278.png?alt=media&token=0715b67c-8e9b-45c8-bd4c-55f1cfd52262",
+    "internalId": "",
+    "job": "WARRIOR",
+    "name": "Pou",
+    "race": "ORG",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "DEATH",
+    "atk": 4,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 3,
+    "description": "",
+    "gold": 100,
+    "id": "52b4951c-731f-48d8-9caa-f4587fe19b6c",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F52b4951c-731f-48d8-9caa-f4587fe19b6c.png?alt=media&token=081c4f71-1393-4999-8c62-4a3e987e5e1d",
+    "internalId": "",
+    "job": "ARCHER",
+    "name": "Trinity",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "EXPLOSION",
+    "atk": 4,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 1,
+    "description": "",
+    "gold": 100,
+    "id": "62cebc64-e610-4b2a-ae49-68099a0599ca",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F62cebc64-e610-4b2a-ae49-68099a0599ca.png?alt=media&token=e85830e3-30cf-4206-bd5a-7c016a645bc9",
+    "internalId": "",
+    "job": "ARCH_MAGE",
+    "name": "Peta",
+    "race": "DEMON",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "DEATH",
+    "atk": 4,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 6,
+    "def": 4,
+    "description": "",
+    "gold": 100,
+    "id": "58cbd08b-f108-4a98-be53-066cc844e56f",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F58cbd08b-f108-4a98-be53-066cc844e56f.png?alt=media&token=8a6ff19b-f03d-4461-b7c2-cb722b561a6b",
+    "internalId": "",
+    "job": "WARRIOR",
+    "name": "Heachi",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "EXPLOSION",
+    "atk": 4,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 5,
+    "def": 4,
+    "description": "",
+    "gold": 100,
+    "id": "3e4ecdbf-2864-438d-831b-5010a8efcb03",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F3e4ecdbf-2864-438d-831b-5010a8efcb03.png?alt=media&token=291183aa-9fc9-4af5-a277-4b2c2173fd8b",
+    "internalId": "",
+    "job": "ARCH_MAGE",
+    "name": "Jino",
+    "race": "UNDEAD",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "SWITCH",
+    "atk": 3,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 5,
+    "def": 3,
+    "description": "",
+    "gold": 100,
+    "id": "c2301ae4-1e5c-4507-8480-e3712d8a4601",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fc2301ae4-1e5c-4507-8480-e3712d8a4601.png?alt=media&token=55e4eb32-ba52-454d-8a46-e3084eecabf2",
+    "internalId": "",
+    "job": "KNIGHT",
+    "name": "Maaao",
+    "race": "ELF",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "SWITCH",
+    "atk": 4,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 2,
+    "description": "",
+    "gold": 100,
+    "id": "19b5164a-c6dd-4e88-93bd-70d3bc903cf7",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F19b5164a-c6dd-4e88-93bd-70d3bc903cf7.png?alt=media&token=54fef965-6254-4852-8b61-832429c28fa7",
+    "internalId": "",
+    "job": "ARCHER",
+    "name": "Killia",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "SWITCH",
+    "atk": 3,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 2,
+    "description": "",
+    "gold": 100,
+    "id": "17465984-d984-4644-9999-640b4539dbb6",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F17465984-d984-4644-9999-640b4539dbb6.png?alt=media&token=fe252d25-68fd-4b43-b213-4657baf2b0e8",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Tajin",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "KILL",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Kill targeted units",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Execution",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "SELF"
+        },
+        "targets": {
+          "target": "SELF"
+        },
+        "triggerType": "TARGET"
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 2,
+    "def": 1,
+    "description": "",
+    "gold": 150,
+    "id": "6a02b0f5-f020-484b-976f-5dcfd7a2ad14",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F6a02b0f5-f020-484b-976f-5dcfd7a2ad14.png?alt=media&token=5fcae31e-8310-40bc-8e9f-a0ac472c1e52",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Kami",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "DEATH",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 2,
+    "description": "Enter description",
+    "gold": 100,
+    "id": "3c8d7844-a65f-4241-8332-873ec841e50f",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F3c8d7844-a65f-4241-8332-873ec841e50f.png?alt=media&token=409dd635-70fc-4cf5-8d36-17358a9d40a5",
+    "internalId": "",
+    "job": "WARRIOR",
+    "name": "Rosmore",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "SWITCH",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 1,
+    "description": "",
+    "gold": 100,
+    "id": "be0d7dea-ec06-47c4-95c2-522580de4fb7",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fbe0d7dea-ec06-47c4-95c2-522580de4fb7.png?alt=media&token=3d10df83-5d45-4b0c-830c-f60ffab80fe0",
+    "internalId": "",
+    "job": "WARRIOR",
+    "name": "Riaya",
+    "race": "DEMON",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Sssh ...!",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Silence",
+        "range": 1,
+        "silence": true,
+        "sources": {
+          "target": "SELF"
+        },
+        "targets": {
+          "target": "SELF"
+        },
+        "triggerType": "TARGET"
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 2,
+    "def": 1,
+    "description": "",
+    "gold": 100,
+    "id": "a8c25da4-f144-4dd9-8308-b61009424343",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fa8c25da4-f144-4dd9-8308-b61009424343.png?alt=media&token=8ba21e18-ef98-49d0-bab9-1a60cfd67555",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Martyr",
+    "race": "DEMON",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "EXPLOSION",
+    "atk": 3,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 5,
+    "def": 3,
+    "description": "",
+    "gold": 300,
+    "id": "f42e73f5-6d33-4632-9bf4-78a7266c58d2",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Ff42e73f5-6d33-4632-9bf4-78a7266c58d2.png?alt=media&token=376da4aa-2a49-48bd-a2ba-ea1f26e66e05",
+    "internalId": "",
+    "job": "WARRIOR",
+    "name": "Louis",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "SWITCH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 2,
+    "description": "",
+    "gold": 140,
+    "id": "b9e229e4-5b0b-4445-8173-7a35432034ac",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fb9e229e4-5b0b-4445-8173-7a35432034ac.png?alt=media&token=84d84863-2222-41d5-84eb-3fb9b104106e",
+    "internalId": "",
+    "job": "ARCHER",
+    "name": "Tiara",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "DEATH",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 2,
+    "description": "",
+    "gold": 100,
+    "id": "d7b63f73-c147-403f-b226-0d4de267e0da",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fd7b63f73-c147-403f-b226-0d4de267e0da.png?alt=media&token=b497c726-a696-4bef-b128-c98d3b93b2d0",
+    "internalId": "",
+    "job": "ARCHER",
+    "name": "Huibu",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "DEATH",
+    "atk": 4,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 6,
+    "def": 4,
+    "description": "",
+    "gold": 350,
+    "id": "3af8319c-e25b-42e8-b947-e34885b786c3",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F3af8319c-e25b-42e8-b947-e34885b786c3.png?alt=media&token=4cd40d64-0b20-4c88-a50d-0a664cccf987",
+    "internalId": "",
+    "job": "LANCER",
+    "name": "Lancelot",
+    "race": "ELF",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 1,
+    "description": "",
+    "gold": 190,
+    "id": "53ea06b5-0059-49f3-b598-28ef2e1a387a",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F53ea06b5-0059-49f3-b598-28ef2e1a387a.png?alt=media&token=2da9ce9d-4557-4338-bde3-e9bbd8d4b292",
+    "internalId": "",
+    "job": "ARCH_MAGE",
+    "name": "Ridcully",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "DEATH",
+    "atk": 5,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 5,
+    "def": 1,
+    "description": "",
+    "gold": 220,
+    "id": "b670689f-8bf0-4b0e-bf22-c1b931244fcf",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fb670689f-8bf0-4b0e-bf22-c1b931244fcf.png?alt=media&token=1e996050-4f3b-40c7-b5ae-bc74d80271c9",
+    "internalId": "",
+    "job": "LANCER",
+    "name": "Sieg",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "child": {
+          "actionType": "KILL",
+          "animationType": "NONE",
+          "atk": 0,
+          "changeRaceTo": "NONE",
+          "cost": 0,
+          "def": 0,
+          "description": "Dies at the end of turn",
+          "gold": 0,
+          "job": "",
+          "loop": 1,
+          "name": "Poisoning",
+          "range": 1,
+          "silence": false,
+          "sources": {
+            "target": "SELF"
+          },
+          "targets": {
+            "target": "SELF"
+          },
+          "triggerType": "ENDOFTURN"
+        },
+        "cost": 0,
+        "def": 0,
+        "description": "Choose an opponent's unit on board, it dies at the end of his turn",
+        "gold": 0,
+        "hasAttachment": true,
+        "job": "",
+        "loop": 1,
+        "name": "Food Poisoning",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "BOARDOP"
+        },
+        "targets": {
+          "target": "BOARDOP"
+        },
+        "triggerType": "ONCE"
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 3,
+    "def": 2,
+    "description": "",
+    "gold": 100,
+    "id": "e3c4031a-cea0-4ee0-bc1d-36f6ead1e734",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fe3c4031a-cea0-4ee0-bc1d-36f6ead1e734.png?alt=media&token=f4859ec4-4a66-4bfb-ad08-25713f8ab0b0",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Findus",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "DEATH",
+    "atk": 2,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 4,
+    "def": 2,
+    "description": "",
+    "gold": 200,
+    "id": "5576fa36-8a88-472a-90dd-1b657a10712a",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F5576fa36-8a88-472a-90dd-1b657a10712a.png?alt=media&token=a7419ffd-e550-4818-ab4d-227a7bd5ec9d",
+    "internalId": "",
+    "job": "GRAND_ARCHER",
+    "name": "Legonas",
+    "race": "ELF",
+    "rarity": "BASE"
+  },
+  {
+    "animationType": "DEATH",
+    "atk": 1,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 5,
+    "def": 3,
+    "description": "",
+    "gold": 300,
+    "id": "a87a05ab-c126-4a78-ad32-7b09f705eb31",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fa87a05ab-c126-4a78-ad32-7b09f705eb31.png?alt=media&token=d10eabe5-974d-4c31-8a26-8faf8bb6b6bf",
+    "internalId": "",
+    "job": "ARCH_MAGE",
+    "name": "Mogoul",
+    "race": "UNDEAD",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "child": {
+          "actionType": "KILL",
+          "animationType": "NONE",
+          "atk": 0,
+          "changeRaceTo": "NONE",
+          "cost": 0,
+          "def": 0,
+          "description": "...",
+          "gold": 0,
+          "job": "",
+          "loop": 1,
+          "name": "Death",
+          "range": 1,
+          "silence": false,
+          "sources": {
+            "target": "SELF"
+          },
+          "targets": {
+            "target": "SELF"
+          },
+          "triggerType": "EXECUTE"
+        },
+        "cost": 0,
+        "def": 0,
+        "description": "Targeted units are killed",
+        "gold": 0,
+        "hasAttachment": true,
+        "job": "",
+        "loop": 1,
+        "name": "Death-Row",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "SELF"
+        },
+        "targets": {
+          "target": "SELF"
+        },
+        "triggerType": "TARGET"
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "MINION",
+    "cost": 5,
+    "def": 4,
+    "description": "",
+    "gold": 200,
+    "id": "5c99e04a-94eb-490a-b667-c241a5a7f0ad",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F5c99e04a-94eb-490a-b667-c241a5a7f0ad.png?alt=media&token=140f1f33-c452-4654-9773-2d7247e4c895",
+    "internalId": "",
+    "job": "MAGE",
+    "name": "Banister",
+    "race": "HUMAN",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "RESURRECT",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Resurrection",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Spell-Cast",
+        "range": 2,
+        "silence": false,
+        "sources": {
+          "target": "GRAVEYARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 5,
+    "def": 0,
+    "description": "Resurrect 2 units.",
+    "gold": 0,
+    "id": "e15ac9cb-4317-48ab-82a2-4f734a88ef2b",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fe15ac9cb-4317-48ab-82a2-4f734a88ef2b.png?alt=media&token=aa8aae2f-be20-4315-b4ae-bc534877a1a4",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Life Enssence",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE",
+        "animationType": "EXPLOSION",
+        "atk": 4,
+        "changeRaceTo": "NONE",
+        "child": {
+          "actionType": "BUFF",
+          "animationType": "NONE",
+          "atk": 0,
+          "changeRaceTo": "NONE",
+          "cost": 0,
+          "def": -1,
+          "description": " -1 Def for all on board. ",
+          "gold": 0,
+          "hasAttachment": false,
+          "job": "",
+          "loop": 1,
+          "name": "Drain Soul",
+          "range": 20,
+          "silence": false,
+          "sources": {
+            "target": "BOARD"
+          },
+          "targets": {
+            "target": "BOARD"
+          },
+          "triggerType": "ENDOFTURN",
+          "wasExecuted": false
+        },
+        "cost": 0,
+        "def": 4,
+        "description": "Choose aunit with no job from hand. Gain +4 Atk +4 DEf",
+        "gold": 0,
+        "hasAttachment": true,
+        "job": "WARRIOR",
+        "loop": 1,
+        "name": "Equip",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "JOB": "NONE"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "DEATH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 3,
+    "def": 0,
+    "description": "Choose a Jobless unit to equip",
+    "gold": 100,
+    "id": "f2be56d5-fedd-4726-818a-4ee9716d7be8",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Ff2be56d5-fedd-4726-818a-4ee9716d7be8.png?alt=media&token=02c09afb-f76d-4769-9987-d5a9ed672e4e",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Cursed Blade",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "SWITCH",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Death is not the solution.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Soul Strike",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "JOB": "NONE"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 2,
+    "def": 2,
+    "description": "Sword looking for a hero. Give Overwhelm affinity. ",
+    "gold": 100,
+    "id": "1e0fad11-7286-4725-9464-0ac94249f034",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F1e0fad11-7286-4725-9464-0ac94249f034.png?alt=media&token=5a7560fb-656c-47ca-abe3-d3a49969847e",
+    "internalId": "",
+    "job": "NONE",
+    "name": "SnowFlake",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "SWITCH",
+        "atk": 4,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 1,
+        "description": "+4 attack and 1 defence",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Equip Claws",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "RACE": "BEAST"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 2,
+    "def": 0,
+    "description": "Choose a beast in your hand and give it +4 attack and +1 defence.",
+    "gold": 100,
+    "id": "dc3655f3-fd61-49a2-bac2-abf77657ac10",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fdc3655f3-fd61-49a2-bac2-abf77657ac10.png?alt=media&token=cd82d3fe-88cb-4eba-b44e-66853b8325a9",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Claws",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE",
+        "animationType": "NONE",
+        "atk": 2,
+        "changeRaceTo": "NONE",
+        "child": {
+          "actionType": "DRAW",
+          "animationType": "NONE",
+          "atk": 0,
+          "changeRaceTo": "UNDEAD",
+          "cost": 0,
+          "def": 0,
+          "description": "Goes back to hand",
+          "gold": 0,
+          "hasAttachment": false,
+          "job": "NONE",
+          "loop": 1,
+          "name": "Redemtion",
+          "range": 1,
+          "silence": false,
+          "sources": {
+            "target": "SELF"
+          },
+          "targets": {
+            "target": "HAND"
+          },
+          "triggerType": "REDEMPTION",
+          "wasExecuted": false
+        },
+        "cost": 0,
+        "def": 2,
+        "description": "Make unit undead and give it REDEMPTION back to hand",
+        "gold": 0,
+        "hasAttachment": true,
+        "job": "",
+        "loop": 1,
+        "name": "Second Chance",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 5,
+    "def": 0,
+    "description": "Eternal weapon. Give its user the Redemption trigger, goes back to hand.",
+    "gold": 100,
+    "id": "7379cd76-f42a-4bdc-ac3a-79e51d2b79dd",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F7379cd76-f42a-4bdc-ac3a-79e51d2b79dd.png?alt=media&token=07d61726-38f8-46da-9210-b72ffe8df7bc",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Damok",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE",
+        "animationType": "NONE",
+        "atk": 3,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 1,
+        "description": "Choose an unit and give it +3 Attack and +1 defence",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Equip",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "RACE": "ELF"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 3,
+    "def": 0,
+    "description": "Nice looking bow that can only be used by Elfs",
+    "gold": 100,
+    "id": "4a7dff7e-ad29-40e2-b083-710df09d3fc2",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F4a7dff7e-ad29-40e2-b083-710df09d3fc2.png?alt=media&token=c506401f-d1e5-44e4-a291-b034cddc8670",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Bono",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "KILL",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Death",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Doom",
+        "range": 3,
+        "silence": false,
+        "sources": {
+          "target": "BOARDOP"
+        },
+        "targets": {
+          "target": "BOARDOP"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 9,
+    "def": 0,
+    "description": "Kill 3 enemy units on board",
+    "gold": 300,
+    "id": "eb05d0f3-7e42-4777-aa35-2bb629eabe62",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Feb05d0f3-7e42-4777-aa35-2bb629eabe62.png?alt=media&token=6850cd34-5807-47f0-8325-96dc800d488a",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Doom Caller",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "DISCOVER",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Copied",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Mirrored",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "SPELL"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 3,
+    "def": 0,
+    "description": "Choose a copy of an item/spell in hand.",
+    "gold": 100,
+    "id": "c5f0dfed-a322-489f-ae22-0dd9127f04b9",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fc5f0dfed-a322-489f-ae22-0dd9127f04b9.png?alt=media&token=8813a8c0-46cd-41f0-8b15-dee2c1596f54",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Mirror Image",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "DRAW",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Bestowed warrior title",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "WARRIOR",
+        "loop": 1,
+        "name": "Showgun",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "DECK"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 2,
+    "def": 0,
+    "description": "Draw a jobless unit from deck and bestowed it the title warrior.",
+    "gold": 100,
+    "id": "94f59e33-1879-4371-9e56-3d194433531b",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F94f59e33-1879-4371-9e56-3d194433531b.png?alt=media&token=aba0bc3b-bb25-4ddb-9340-b34e3eb019b9",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Shogun",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE",
+        "animationType": "NONE",
+        "atk": 2,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": -2,
+        "description": "Choose a jobless unit in hand +2 Atk and -2 Def",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Balancia",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "JOB": "NONE"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 3,
+    "def": 0,
+    "description": "Well balanced axe for beginner",
+    "gold": 100,
+    "id": "feefe7cf-f957-4d59-b451-82d88698ce41",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Ffeefe7cf-f957-4d59-b451-82d88698ce41.png?alt=media&token=96bbedbd-ef43-4a0d-9039-81152cd9225a",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Toram",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE_RESURRECT",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Resurrection",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Phoenix Down",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "GRAVEYARD"
+        },
+        "targets": {
+          "target": "BOARDOP"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 3,
+    "def": 0,
+    "description": "Resurrection Spell",
+    "gold": 100,
+    "id": "65ec541a-bad8-479d-9ed1-473e5d3dc27b",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F65ec541a-bad8-479d-9ed1-473e5d3dc27b.png?alt=media&token=9c9c1697-eb86-4174-9474-8e4441341f17",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Phoenix ",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "child": {
+          "actionType": "KILL",
+          "animationType": "NONE",
+          "atk": 0,
+          "changeRaceTo": "NONE",
+          "cost": 0,
+          "def": 0,
+          "description": "...",
+          "gold": 0,
+          "hasAttachment": false,
+          "job": "",
+          "loop": 1,
+          "name": "Death",
+          "range": 1,
+          "silence": false,
+          "sources": {
+            "target": "SELF"
+          },
+          "targets": {
+            "target": "BOARD"
+          },
+          "triggerType": "EXECUTE",
+          "wasExecuted": false
+        },
+        "cost": 0,
+        "def": 0,
+        "description": "...",
+        "gold": 0,
+        "hasAttachment": true,
+        "job": "",
+        "loop": 1,
+        "name": "Assasination",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "target": "BOARDOP"
+        },
+        "targets": {
+          "target": "BOARDOP"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 4,
+    "def": 0,
+    "description": "Choose an enemy unit and kill it.",
+    "gold": 100,
+    "id": "1fe4ac47-a7bd-474c-af04-5d6c35d5a0ca",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F1fe4ac47-a7bd-474c-af04-5d6c35d5a0ca.png?alt=media&token=34ee9b24-4ba7-42ee-89a8-abd654477916",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Reaper",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "DRAW",
+        "animationType": "NONE",
+        "atk": 4,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 4,
+        "description": "Draw an Arch mage from deck and give it +4 Attack and +4 Defence",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Equip",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "JOB": "ARCH_MAGE"
+          },
+          "target": "DECK"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 4,
+    "def": 0,
+    "description": "Arch mage staff",
+    "gold": 150,
+    "id": "e9f808db-93b4-4c5e-b2ef-1b489090d2d4",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fe9f808db-93b4-4c5e-b2ef-1b489090d2d4.png?alt=media&token=4db55877-3226-4425-ae9b-b1a62d3283ff",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Zao",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Choose a mage from hand and promote to Arch mage.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "ARCH_MAGE",
+        "loop": 1,
+        "name": "Equip",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "JOB": "MAGE"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 3,
+    "def": 0,
+    "description": "Promote a mage to Arch mage",
+    "gold": 100,
+    "id": "0db5a96d-8edb-4d39-bb75-58bdca0da8da",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F0db5a96d-8edb-4d39-bb75-58bdca0da8da.png?alt=media&token=cc1f7705-584f-4309-966f-48f0f8fb671f",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Promotion Staff",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "COPY",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": -2,
+        "def": 0,
+        "description": "Add 2 random items or spells to hand and reduce cost by -2.",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Cast",
+        "range": 2,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "SPELL"
+          },
+          "target": "DATABASE"
+        },
+        "targets": {
+          "target": "DECK"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 5,
+    "def": 0,
+    "description": "Add 2 random items or spells to deck and reduce their cost by -2",
+    "gold": 100,
+    "id": "19aa3cf6-05a6-4870-a671-bda176c1a742",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F19aa3cf6-05a6-4870-a671-bda176c1a742.png?alt=media&token=324c718f-ca20-460c-bb0c-f0fcce9f1ec1",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Book of Wonders",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 2,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Give a mage +2 Attack",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Cast",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "JOB": "MAGE"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      },
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 3,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 0,
+        "description": "Give an Arch  mage +3 Attack",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Cast",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "JOB": "ARCH_MAGE"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 4,
+    "def": 0,
+    "description": "Power up for mage and arch mage",
+    "gold": 100,
+    "id": "637c53a4-7e1d-432c-a4df-7b62bd3f7176",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F637c53a4-7e1d-432c-a4df-7b62bd3f7176.png?alt=media&token=6139e53e-ee0f-4357-8999-801511aa0832",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Grimoire",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 2,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 2,
+        "description": "Give an Archer in deck +2 Attack and +2 Defence",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Equip",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "JOB": "ARCHER"
+          },
+          "target": "DECK"
+        },
+        "targets": {
+          "target": "DECK"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 3,
+    "def": 0,
+    "description": "A good bow",
+    "gold": 100,
+    "id": "140f0ad0-bc91-488a-889f-62edb46e1ce9",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F140f0ad0-bc91-488a-889f-62edb46e1ce9.png?alt=media&token=0717b37e-58e8-4ecf-94d6-cf8125ebc697",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Rambo",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "CHOOSE",
+        "animationType": "NONE",
+        "atk": 1,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 2,
+        "description": "Chose an Archer from hand and promote to Grand-Archer and give it +1 Attack and +2 Defence",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "GRAND_ARCHER",
+        "loop": 1,
+        "name": "Equip",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "JOB": "ARCHER"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE",
+        "wasExecuted": false
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 3,
+    "def": 0,
+    "description": "Promote to Grand-Archer and gains extra stats.",
+    "gold": 100,
+    "id": "a4d0ba94-e9f4-44a9-916c-84e292dce322",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fa4d0ba94-e9f4-44a9-916c-84e292dce322.png?alt=media&token=34392c3f-0a91-4b7c-b50e-4f5db257f9cc",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Crow-Bar",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": -3,
+        "def": 0,
+        "description": "Reduce cost of 5 random spells in deck by -3",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Spell-Cast",
+        "range": 5,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "SPELL"
+          },
+          "target": "DECK"
+        },
+        "targets": {
+          "target": "DECK"
+        },
+        "triggerType": "ONCE"
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 5,
+    "def": 0,
+    "description": "Big spell discounter",
+    "gold": 300,
+    "id": "7de333ec-d03c-46be-909e-0c3194b6e51b",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2F7de333ec-d03c-46be-909e-0c3194b6e51b.png?alt=media&token=03743b2f-b928-4c69-bf87-4719a5c40816",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Mana Bag",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "BUFF",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "NONE",
+        "cost": 0,
+        "def": 10,
+        "description": "Choose an undead in hand and give +10 defence",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Equip-Shield",
+        "range": 1,
+        "silence": false,
+        "sources": {
+          "details": {
+            "CARD_TYPE": "MINION",
+            "RACE": "UNDEAD"
+          },
+          "target": "HAND"
+        },
+        "targets": {
+          "target": "HAND"
+        },
+        "triggerType": "ONCE"
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 3,
+    "def": 0,
+    "description": "Increase Defence by +10",
+    "gold": 200,
+    "id": "aae8ff78-5b66-4cd7-b833-d47f2666d887",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Faae8ff78-5b66-4cd7-b833-d47f2666d887.png?alt=media&token=8fdd66dd-e86b-49c9-9c6a-66c8c282c54b",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Fancy Shield",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  },
+  {
+    "abilities": [
+      {
+        "actionType": "RESURRECT",
+        "animationType": "NONE",
+        "atk": 0,
+        "changeRaceTo": "UNDEAD",
+        "cost": 0,
+        "def": 0,
+        "description": "Unholy resurrection",
+        "gold": 0,
+        "hasAttachment": false,
+        "job": "",
+        "loop": 1,
+        "name": "Spell-Cast",
+        "range": 3,
+        "silence": false,
+        "sources": {
+          "target": "GRAVEYARD"
+        },
+        "targets": {
+          "target": "BOARD"
+        },
+        "triggerType": "ONCE"
+      }
+    ],
+    "animationType": "SWITCH",
+    "atk": 0,
+    "buffInfo": "",
+    "cardType": "SPELL",
+    "cost": 9,
+    "def": 0,
+    "description": "Resurrect 3 units as undead ",
+    "gold": 235,
+    "id": "cf58faee-2207-4cab-9ef0-cb3fc0048dad",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fire-hexos.appspot.com/o/card_images%2Fcf58faee-2207-4cab-9ef0-cb3fc0048dad.png?alt=media&token=d42d2b34-0d6f-4a0a-8d66-65517cb2f1f7",
+    "internalId": "",
+    "job": "NONE",
+    "name": "Blood Chalis",
+    "race": "UNDEFINE",
+    "rarity": "BASE"
+  }
+]
