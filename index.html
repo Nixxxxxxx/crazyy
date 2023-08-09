@@ -1,15 +1,66 @@
 <!DOCTYPE html>
 <html>
+<style>
+.container {
+    position: fixed;
+        top: 25%;
+        left: 40%;
+        width: 25%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+    body{
+        background-image: url("./Images/background.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+</style>
 <body>
-
-<h1>The a download attribute</h1>
-
-<p>Click on the image to download it:<p>
-<a href="./test.txt" download>
-  <img src="/images/myw3schoolsimage.jpg" alt="W3Schools" width="104" height="142">
-</a>
-
-<p><b>Note:</b> The download attribute is not supported in IE or Edge (prior version 18), or in Safari (prior version 10.1).</p>
+    <div class="container">
+        <a href="./Builds.zip" download="download" title="Download">
+            <img src="./Images/bownload_btn_2.png" class="image">
+            <div class="overlay">
+                <img src="./Images/bownload_btn.png" alt="Download" class="image">
+            </div>
+        </a>
+    </div>
 
 </body>
+
 </html>
