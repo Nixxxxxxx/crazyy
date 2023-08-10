@@ -1,66 +1,146 @@
 <!DOCTYPE html>
 <html>
-<style>
-.container {
-    position: fixed;
-        top: 25%;
-        left: 40%;
-        width: 25%;
-}
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+    <title>Tactics Hero</title>
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-}
+    <meta
+      name="description"
+      content="Tactical Boardgame, player place units on board and try to win as much ground as possible before the turn counter reaches 15"
+    />
 
-.container:hover .overlay {
-  opacity: 1;
-}
+    <meta
+      name="keywords"
+      content="Board Game, Card Game, Strategy, Fun, Entertainment, Family-Friendly, Multiplayer, Social, Competitive, Cooperative, Adventure, Fantasy, Sci-Fi, Tactical, Replayability, Deck-building, Miniatures, Collectible, Tabletop, Party Game, Puzzle, Role-Playing, Fast-paced, Interactive, Gaming, Skill, Exciting, Creative, Exploration, Challenging, Customizable, Resource Management, Bluffing, Diplomacy, Set Collection, Hand Management, Hidden Information, Adventure, Quest, Strategy, Luck, Deduction, Economy, Solo Play, Family Game, Learning Game, Unique Mechanics, Kickstarter"
+    />
 
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+    <link rel="canonical" href="https://www.tacticshero.de" />
 
-    body{
+    <meta property="og:title" content="Tactics Hero" />
+    <meta property="og:description" content="Tactical board game" />
+    <meta
+      property="og:image"
+      content="https://www.tacticshero.de/Images/bownload_btn.png"
+    />
+    <meta property="og:url" content="https://www.tacticshero.de" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <style>
+      body {
         background-image: url("./Images/background.png");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    }
+      }
 
-</style>
-<body>
+      .container {
+        position: fixed;
+        top: 25%;
+        left: 40%;
+        width: 25%;
+      }
+
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: 0.5s ease;
+      }
+
+      .animate-image {
+        position: fixed;
+        bottom: -50px;
+        right: -300px;
+        opacity: 0.25;
+        width: 400px;
+        height: 400px;
+        transition: opacity 1s ease-in-out;
+        transition: transform 3s ease-in-out;
+      }
+
+      .container:hover .overlay {
+        opacity: 1;
+        animation: vibrate 0.3s infinite alternate;
+      }
+
+      .container:hover .animate-image {
+        opacity: 0.5;
+        transform: translateX(-125px);
+      }
+
+      @keyframes vibrate {
+        0% {
+          transform: translate(0);
+        }
+        10% {
+          transform: translate(5px, 5px);
+        }
+        20% {
+          transform: translate(-5px, -5px);
+        }
+        30% {
+          transform: translate(0px, 5px);
+        }
+        40% {
+          transform: translate(-5px, -5px);
+        }
+        50% {
+          transform: translate(5px, 0px);
+        }
+        60% {
+          transform: translate(-5px, -5px);
+        }
+        70% {
+          transform: translate(0);
+        }
+        80% {
+          transform: translate(5px, -5px);
+        }
+        90% {
+          transform: translate(-5px, 5px);
+        }
+        100% {
+          transform: translate(0);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
     <div class="container">
-        <a href="./Builds.zip" download="download" title="Download">
-            <img src="./Images/bownload_btn_2.png" class="image">
-            <div class="overlay">
-                <img src="./Images/bownload_btn.png" alt="Download" class="image">
-            </div>
-        </a>
+      <img src="./Images/scarecrow.png" class="animate-image" />
+
+      <a href="./Builds.zip" download="download" title="Download">
+        <audio id="hover-sound" src="./sounds/hover.wav"></audio>
+        <img src="./Images/bownload_btn_2.png" class="image" />
+        <div class="overlay">
+          <img src="./Images/bownload_btn.png" alt="Download" class="image" />
+        </div>
+      </a>
     </div>
+    <script>
+      const hoverSound = document.getElementById("hover-sound");
+      const hoverContainer = document.querySelector(".container");
 
-</body>
-
+      hoverContainer.addEventListener("mouseenter", () => {
+        hoverSound.currentTime = 0;
+        hoverSound.play();
+      });
+    </script>
+  </body>
 </html>
